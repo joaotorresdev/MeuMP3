@@ -1,0 +1,10 @@
+MEU PLAYER MP3 - como virar um aplicativo (.exe)
+
+1. Instale o Node.js (versao LTS): https://nodejs.org
+2. Extraia esta pasta em qualquer lugar do computador.
+3. De dois cliques em "gerar-executavel.bat" e espere alguns minutos.
+4. O aplicativo "Meu Player MP3 1.0.0.exe" aparece na pasta "dist".
+   Pode copiar esse arquivo para onde quiser (Area de Trabalho, pendrive).
+
+Para apenas testar, sem gerar o .exe: "testar-sem-gerar.bat".
+No Mac/Linux: npm install && npm start (testar) ou npx electron-builder --mac / --linux.
