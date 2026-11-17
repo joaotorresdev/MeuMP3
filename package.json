@@ -1,0 +1,14 @@
+{
+  "name": "meu-player-mp3",
+  "version": "1.3.0",
+  "description": "Player de MP3 local com playlists por pasta",
+  "main": "main.js",
+  "scripts": { "start": "electron .", "dist": "electron-builder --win portable" },
+  "devDependencies": { "electron": "^33.0.0", "electron-builder": "^25.1.8" },
+  "build": {
+    "appId": "com.joao.meuplayermp3",
+    "productName": "MeuMP3",
+    "files": ["main.js", "index.html", "icon.png"],
+    "win": { "target": "portable", "icon": "icon.ico" }
+  }
+}
