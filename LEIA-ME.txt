@@ -1,7 +1,0 @@
-MeuMP3
-
-1. Instale o Node.js (LTS): https://nodejs.org
-2. De dois cliques em gerar-executavel.bat
-3. O app "MeuMP3 1.3.0.exe" aparece na pasta dist.
-
-Para so testar: testar-sem-gerar.bat
